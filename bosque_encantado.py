@@ -1,9 +1,6 @@
 
 import random
 
-# -------------------------
-# CLASE BASE: CRIATURA
-# -------------------------
 class Criatura:
     def __init__(self, nombre, energia, amigable):
         self.nombre = nombre
@@ -11,7 +8,6 @@ class Criatura:
         self.amigable = amigable
 
     def interactuar(self, jugador):
-        # Se sobrescribe en las subclases
         pass
 
 class CriaturaAmigable(Criatura):
@@ -80,7 +76,7 @@ class Bosque:
             elif opcion == "1":
                 print(" Avanzas más en el bosque.")
             else:
-                print("Opción inválida. Pierdes tiempo en el bosque...")
+                print ("Opción inválida. Pierdes tiempo en el bosque...")
 
         print("\n Has perdido... Fin del juego.")
 
