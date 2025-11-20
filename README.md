@@ -65,7 +65,7 @@ Te encontraste con: Hada
 2. Huir
 3. Interactuar
 
-# <p style="color:#4da6ff;"> 🛠 Mejoras Futuras (opcional)
+# <p style="color:#4da6ff;"> 🛠 Mejoras Futuras
 
 - Inventario visible durante el juego
 
